@@ -3,7 +3,7 @@ import * as mixpanel from 'mixpanel-figma';
 class Analytics {
   constructor() {
     try {
-      mixpanel.init('f905512e3cb51d23b85fb5766ceb8624', {
+      mixpanel.init('e181b51aecdb5f833ff7f348ff62d91a', {
         disable_cookie: true, // Required for Figma plugins
         disable_persistence: true, // Required for Figma plugins
       });
